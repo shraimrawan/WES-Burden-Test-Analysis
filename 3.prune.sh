@@ -1,0 +1,3 @@
+mkdir /scr1/users/shraimr/Pruned
+/cm/shared/easybuild/software/PLINK/1.9b_4.1-x86_64/plink --noweb --bfile /scr1/users/shraimr/veo.remicade.062419.genotypes --maf 0.10 --indep 50 5 1.5 --out /scr1/users/shraimr/Pruned/veo.remicade.062419.genotypes
+/cm/shared/easybuild/software/PLINK/1.9b_4.1-x86_64/plink --noweb --bfile /scr1/users/shraimr/veo.remicade.062419.genotypes --extract /scr1/users/shraimr/Pruned/veo.remicade.062419.genotypes.prune.in --make-bed --out /scr1/users/shraimr/Pruned/veo.remicade.062419.genotypes
