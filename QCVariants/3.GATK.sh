@@ -1,0 +1,3 @@
+#!/bin/sh
+#$ -cwd
+java -Xmx4g -Djava.io.tmpdir=/scr1/users/shraimr -jar /mnt/isilon/dbhi_bfx/bin/gatk/gatk-4.0.2.1/gatk-package-4.0.2.1-local.jar VariantFiltration -R /mnt/isilon/dbhi_bfx/reference/human/g1k_v37/human_g1k_v37.fasta -V veo.remicade.normalized.101819.vcf -O veo.remicade.062419.hd.101819.vcf -G-filter "DP < 15" -G-filter-name "LowDP" -G-filter "GQ <= 20" -G-filter-name "LowGQ" --set-filtered-genotype-to-no-call
