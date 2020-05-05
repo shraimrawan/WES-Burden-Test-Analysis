@@ -1,0 +1,1 @@
+/cm/shared/easybuild/software/PLINK/1.9b_4.1-x86_64/plink --noweb --bcf /scr1/users/shraimr/veo.remicade.062419.bcf --keep-allele-order --vcf-idspace-to _ --const-fid --allow-extra-chr 0 --split-x b37 no-fail --make-bed --out /scr1/users/shraimr/veo.remicade.062419.genotypes ;
